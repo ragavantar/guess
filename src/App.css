@@ -1,0 +1,219 @@
+.dotborder{
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  padding: 15px 0;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  text-align: center;  
+}  
+
+.home *{
+  width: 100%;
+}
+
+.home img{
+  width: 100%;
+}
+
+.home .buttons{
+  position: relative  
+}
+
+.home .buttons .border{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  border-left: 2px dotted grey;
+  border-right: 2px dotted grey;
+}
+.home button{
+  margin-top: 10px;
+  padding: 15px 0;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.prod{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.prod .imgContainer{
+  width: 80%;
+  margin: auto; 
+  position: relative;
+}
+
+.prod .imgContainer img{
+  width: 100%;
+}
+
+.prod .imgContainer span{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.prod .box{
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  top: 35%;
+  height: 70%;
+  z-index: -1;
+}
+
+.prod .buttons{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.prod .buttons button{
+  background: grey;
+  padding: 15px;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.prod .buttons .border-top{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border-top: 2px dotted grey;
+}
+
+.prod .buttons .border-col-left{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  z-index: -1;
+  width: 30%;
+  height: 100%;
+  border-left: 2px dotted grey;
+  border-right: 2px dotted grey;
+}
+
+.prod .buttons .border-col-right{
+  position: absolute;
+  top: 0;
+  right: 10%;
+  z-index: -1;
+  width: 30%;
+  height: 100%;
+  border-left: 2px dotted grey;
+  border-right: 2px dotted grey;
+}
+
+.prod .buttons .wrong{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.prod .buttons .wrong .text{
+  font-size: 10px;
+}
+
+.prod .buttons .wrong .price{
+  font-size: 20px;
+}
+
+.prod .buttons .wrong .wish{
+  font-size: 10px;
+}
+
+.status{
+  background: brown;
+}
+
+.status .queContainer{
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: auto;
+  color: white;
+}
+
+.status .que{
+  border: 2px dotted grey;
+  border-radius: 50%;
+  padding: 8px; 
+}
+
+.status .line{
+  position: absolute;
+  top: 50%;
+  border: 2px dotted grey;
+  z-index: -1;
+}
+
+.gameover .top{
+  text-align: center;
+
+}
+
+.gameover .bottom{
+  background: grey;
+  position: fixed;
+  bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 25px; 
+}
+
+.gameover .bottom .hang{
+  position: absolute;
+  top: -25px;
+  left: 10%;
+  width: 80%;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.gameover .cards{
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.gameover .card{
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  margin: 10px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gameover .card img{
+  width: 100%;
+}
+
+.gameover .card .text{
+  font-size: 10px;
+  color: grey;
+}
+
+.gameover .card span{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
