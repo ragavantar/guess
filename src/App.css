@@ -35,6 +35,7 @@
   height: 100%;
   border-left: 2px dotted grey;
   border-right: 2px dotted grey;
+  pointer-events: none;
 }
 .home button{
   margin-top: 10px;
